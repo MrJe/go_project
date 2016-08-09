@@ -1,7 +1,7 @@
 # go_project
 Création d'un goban, gestion de la pose des pierres, calculs des points
 
-/* ************************************************************************** */\n
+/* ************************************************************************** */
 AFFICHAGE DU GOBAN
 
 La taille doit être > 1 && < 100;
