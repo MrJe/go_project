@@ -78,3 +78,7 @@ result > x win by 3 points
 - [ ] sauvegarde du kifu dans un fichier txt (liste des coups joués);
 - [ ] changement des symboles utilisés pour les pierres;
 - [ ] lister les x derniers coups sur la droite du plateau;
+
+Test d'une ligne;
+Ceci est une seconde ligne;
+Voilà la dernière
