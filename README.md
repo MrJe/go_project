@@ -2,7 +2,7 @@
 Création d'un goban, gestion de la pose des pierres, calculs des points
 
 /* ************************************************************************** */
-## AFFICHAGE DU GOBAN
+### AFFICHAGE DU GOBAN
 
 La taille doit être > 1 && < 100;
 Les coordonnées doivent être affichées;
@@ -22,7 +22,7 @@ Voici un exemple d'affichage d'un goban 9 * 9 :
 ```
 
 /* ************************************************************************** */
-## POSE DES PIERRES
+### POSE DES PIERRES
 
 Les pierres sont noires 'x' et blanches 'o';
 Noir commence et les joueurs jouent chacun leur tour;
@@ -47,7 +47,7 @@ prisonners > x : 0 | o : 0
 ```
 
 /* ************************************************************************** */
-## CALCUL DES POINTS
+### CALCUL DES POINTS
 
 Lorsque les deux joueurs passent consécutivement, la partie est terminée;
 Le décompte se fait automatiquement et le résultat s'affiche sous la grille;
@@ -73,8 +73,8 @@ result > x win by 3 points
 ```
 
 /* ************************************************************************** */
-ADD ON
+### ADD ON
 
-- sauvegarde du kifu dans un fichier txt (liste des coups joués);
-- changement des symboles utilisés pour les pierres;
-- lister les x derniers coups sur la droite du plateau;
+- [ ] sauvegarde du kifu dans un fichier txt (liste des coups joués);
+- [ ] changement des symboles utilisés pour les pierres;
+- [ ] lister les x derniers coups sur la droite du plateau;
