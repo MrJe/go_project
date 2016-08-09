@@ -8,6 +8,7 @@ La taille doit être > 1 && < 100;
 Les coordonnées doivent être affichées;
 
 Voici un exemple d'affichage d'un goban 9 * 9 :
+```
    1  2  3  4  5  6  7  8  9
 1  .  .  .  .  .  .  .  .  .
 2  .  .  .  .  .  .  .  .  .
@@ -18,6 +19,7 @@ Voici un exemple d'affichage d'un goban 9 * 9 :
 7  .  .  .  .  .  .  .  .  .
 8  .  .  .  .  .  .  .  .  .
 9  .  .  .  .  .  .  .  .  .
+```
 
 /* ************************************************************************** */
 POSE DES PIERRES
