@@ -79,6 +79,6 @@ result > x win by 3 points
 - [ ] changement des symboles utilisés pour les pierres;
 - [ ] lister les x derniers coups sur la droite du plateau;
 
-Test d'une ligne;<br />
+Test d'une ligne;  
 Ceci est une seconde ligne;<br />
 Voilà la dernière
