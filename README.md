@@ -2,7 +2,7 @@
 Création d'un goban, gestion de la pose des pierres, calculs des points
 
 /* ************************************************************************** */
-AFFICHAGE DU GOBAN
+## AFFICHAGE DU GOBAN
 
 La taille doit être > 1 && < 100;
 Les coordonnées doivent être affichées;
@@ -22,7 +22,7 @@ Voici un exemple d'affichage d'un goban 9 * 9 :
 ```
 
 /* ************************************************************************** */
-POSE DES PIERRES
+## POSE DES PIERRES
 
 Les pierres sont noires 'x' et blanches 'o';
 Noir commence et les joueurs jouent chacun leur tour;
@@ -31,6 +31,7 @@ La grille est actualisée et affichée après chaque coup;
 Le nombre de pierres capturées est indiquée sous la grille;
 
 Voici un exemple d'affichage en cours de partie :
+```
    1  2  3  4  5  6  7  8  9
 1  .  .  .  .  .  .  .  .  .
 2  .  .  .  .  .  .  .  .  .
@@ -43,14 +44,16 @@ Voici un exemple d'affichage en cours de partie :
 9  .  .  .  .  .  .  .  .  .
 
 prisonners > x : 0 | o : 0
+```
 
 /* ************************************************************************** */
-CALCUL DES POINTS
+## CALCUL DES POINTS
 
 Lorsque les deux joueurs passent consécutivement, la partie est terminée;
 Le décompte se fait automatiquement et le résultat s'affiche sous la grille;
 
 Voici un exemple de fin de partie :
+```
    1  2  3  4  5  6  7  8  9
 1  .  .  .  .  o  x  x  .  .
 2  .  .  .  .  o  o  x  .  .
@@ -67,6 +70,7 @@ prisonners > x : 1 | o : 1
 result > x = 22 + 1 | o = 18 + 2
 result > x = 23 | o = 20
 result > x win by 3 points
+```
 
 /* ************************************************************************** */
 ADD ON
